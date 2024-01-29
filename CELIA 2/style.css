@@ -1,0 +1,94 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 32px;
+}
+
+body {
+    font-family: 'Londrina Solid', sans-serif;
+}
+
+
+.starred-name {
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.starred-name::before,
+.starred-name::after {
+    content: '\2605'; /* Code Unicode pour une étoile pleine */
+    font-size: 32px;
+}
+
+.starred-name::before {
+    margin-right: 10px; /* Espace entre l'étoile et le texte */
+}
+
+.starred-name::after {
+    margin-left: 10px; /* Espace entre le texte et l'étoile */
+}
+
+.starred-barre{
+    background-color: white;
+    padding: 12px;
+
+}
+
+.separator {
+    width: 100%; /* Barre horizontale sur toute la largeur */
+    height: 21px; /* Hauteur de la barre horizontale */
+    background-color: rgb(0, 0, 0); /* Couleur de la barre horizontale */
+    margin: 20px 0; /* Ajustez l'espace au-dessus et en dessous de la barre */
+}
+
+.image{
+    background-color: white;
+    margin-right: x;
+    
+}
+
+
+.social-icons {
+    font-size: 24px;
+   
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Styles spécifiques pour les icônes LinkedIn et Behance */
+.icon-linkedin:hover {
+    color: #0077B5; /* Couleur LinkedIn */
+}
+
+.icon-behance:hover {
+    color: #7c7d80; /* Couleur Behance */
+}
+
+footer {
+    text-align: center;
+    padding: 35px;
+    background-color: #000000;
+    
+}
